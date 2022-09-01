@@ -1,0 +1,69 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color:#508E97;   /* background color */
+	color:#232525;          /* text color for the entire page */
+	font-size: 15px;
+	font-family: Helvetica, Geneva, sans-serif;}
+
+
+
+h1, h2 { 
+	text-align:left;     /* centers h1 and h2 content */
+	  color:#DCE4E9;       /* exploring new text color */
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:900px;
+	margin:0 auto;    /* centers wrapper */
+	
+}
+
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:8px;
+	text-align:left;
+	font-size:20px;
+	background-color:#E6EEF0;
+	
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+		
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	justify-content: center;
+	
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: left;
+}
+
+img { 
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
