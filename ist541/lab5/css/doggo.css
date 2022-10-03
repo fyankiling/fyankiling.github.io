@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+width:900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #doggo_image {
+border: black 5px solid;
+}
+ 
+ #bell {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+img {
+  width: 400px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.choices {
+cursor: pointer;
+}
+
+a {
+	padding: 14px;
+margin: 10px;
+	font-size: 125%;
+	background-color:  #1C6573; 
+	color:  #ffffff; 
+	
+}
+
+a:hover {
+	font-size:200%;
+	background-color:#1C6573; 
+	color: #1C6573; 
+
+}
+
+
+body {
+  background-color: #D6E4E7;
+}
+
+
+body {
+	color: #000000;          /* text color for the entire document */
+	font-size: 14px;
+	font-family:times new roman;
+}
+
+#wrapper {
+	width:900px;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: rgba(255, 255, 255, 0.8);  /* creates white background with 80% opacity */
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+}
+
+td {
+	background-color: white;  /* sets background color for table cells*/
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+}

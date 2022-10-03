@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question2.html</title>
+	<link href="css/doggo.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<h1>Ferlynn L. Yankiling, Lab 5</h1>
+	<br>
+	<center><a href="question1.html">  Question one </a>
+		<a href="question2.html"> Question two </a></center>
+	<br>
+	
+	<div id="wrapper">
+<h1>In Ivan Pavlov's dog experiment, what item was used to make the dog salivate?</h1>
+<h3>Click on one of the following choices</h3>
+
+<h2 onclick="wrongAnswer1()" class="choices"> Chew toy </h2>
+<h2 onclick="wrongAnswer2()" class="choices"> Treats </h2>
+<h2 onclick="wrongAnswer3()" class="choices"> Steak </h2>
+<h2 onclick="rightAnswer()" class="choices"> Bell </h2>
+
+<div id="feedback"></div>
+<img id="bell" src="img/bell.jpeg" />
+</div>
+	
+<script>
+	
+	
+	function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:maroon'> Incorrect. The dog did not drool to a chew toy. </h2>");
+      $("#doggo").hide();
+   }
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:maroon'> Incorrect. The dog did not drool to treats. </h2>");
+      $("#doggo").hide();
+   }
+	
+	function wrongAnswer3(){
+      $("#feedback").html("<h2 style='color:maroon'> Incorrect. The dog did not drool to steak. </h2>");
+      $("#doggo").hide();
+   }
+	
+      function rightAnswer(){
+         $("#feedback").html("<h2 style='color:teal'> Correct! The dog salivated to noise of the conditioned stimulus, the bell.</h2>");
+         $("#bell").show();
+      }
+   </script>
+	
+	
+</body>
+</html>
