@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>implement</title>
+	<link href="css/finalproject.css" rel="stylesheet" type="text/css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<h1>Step four: Implement</h1>
+	<br>
+	
+<p><a href="index.html"> Home </a>
+          <a href="about.html"> About </a>
+          <a href="analyze.html"> Analyze </a>
+          <a href="design.html"> Design </a>
+          <a href="develop.html"> Develop </a>
+          <a href="implement.html"> Implement </a>
+          <a href="evaluate.html"> Evaluate</a></p>
+	<br>
+	
+	<div id="wrapper">
+		<summary class="stepTitle"><b>Implementation of Your Project</b></summary>
+	<div class="stepContent">
+
+		<div class="stepDescription">         
+			<p><b>Finally, you have reached the implementation phase! Whichever development tool you've curated in order for your project to be published, it is time to send it to your participants. Please consider these few tips:</b></p>
+<ul>
+	<li><p style="text-align: left;">Where your participants will take your project. Is it asynchronous or synchronous? Keep in mind of different time-zones if your participants are across the country.</p></li>
+	<li><p style="text-align: left;">Who will instruct your participants when to begin your project?</p></li>
+	<li> <p style="text-align: left;">If instructors are teaching your project, how well do they know about the content and learning objectives?</p></li>
+	<li> <p style="text-align: left;">Let your participants take a pre-test to test their knowledge of the project.</p></li>
+		  </ul>
+			
+  </div>
+		
+	</div><!--stepContent-->
+		
+		</div><!--wrapper-->
+	
+	<br>
+	
+	<div id="wrapper">
+		<summary class="stepTitle"><b>What Comes Before the Implement Phase? (Hover the Image Below)</b></summary>
+	<div class="stepContent">
+ 
+<img onmouseenter="showAnswer()" id="implement"  src="img/implement.jpg"   />
+ 
+<img onmouseleave="hideAnswer()" id="develop" src="img/develop.jpg" />
+ 
+           <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+
+	
+	<script>
+ function showAnswer() {
+	   $("#implement").hide();
+	   $("#develop").show();
+	   $("#answer").html("<h2>Correct! Development comes prior to the implementation phase.</h2>");
+	}
+
+function hideAnswer() {
+	   $("#implement").show();
+	   $("#develop").hide();
+	   $("#answer").html("");  
+	}
+</script>
+	</div>	
+	
+	<br>
+	Creator: Ferlynn L. Yankiling
+	<br>
+	California State University, Monterey Bay
+	<br>
+	Course: IST541 - Final Project Website
+	<br> Image sources: <b>Freepik.com</b>, <b>biz.libretexts.org</b>
+	
+</body>
+</html>

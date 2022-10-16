@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>evaluate</title>
+<link href="css/finalproject.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+<h1>Step five: Evaluate</h1>
+<br>
+<p><a href="index.html"> Home </a> <a href="about.html"> About </a> <a href="analyze.html"> Analyze </a> <a href="design.html"> Design </a> <a href="develop.html"> Develop </a> <a href="implement.html"> Implement </a> <a href="evaluate.html"> Evaluate</a></p>
+<br>
+	<div id="wrapper">
+		<summary class="stepTitle"><b>Welcome to the Evaluation Phase!</b></summary>
+	<div class="stepContent">
+
+		<div class="stepDescription">         
+			<p><b>Congrats! You have reached the evaluation phase of the ADDIE Model. Please consider these few tips:</b></p>
+<ul>
+	<li><p style="text-align: left;">During the evaluation, consider a post-test survey to see what learning was obtained or not.</p></li>
+	<li><p style="text-align: left;">Provide in the post-survey feedback where participants can input ideas to better the project course.</p></li>
+	<li> <p style="text-align: left;">Gather all the data.
+	</p>
+	</li>
+	<li> <p style="text-align: left;">Was there a change in comparison to the pre-test to post-test, and usability survey? If there was a change, you can revist your project to make modifications. </p></li>
+		  </ul>
+			
+  </div>
+		
+	</div><!--stepContent-->
+		
+		</div><!--wrapper-->
+<br>
+<div id="wrapper">
+  <h2>Knowledge Check One:</h2>
+  <h3>How many phases are in the ADDIE Model?</h3>
+  <h4 onclick="wrongAnswer1()" class="choices"> Six </h4>
+  <h4 onclick="wrongAnswer2()" class="choices"> Three </h4>
+  <h4 onclick="rightAnswer()" class="choices"> Five </h4>
+  <h4 onclick="wrongAnswer2()" class="choices"> Eight  </h4>
+  <div id="feedback"></div>
+  <img id="addiemodel" src="img/addiemodel.jpg" /></div>
+
+	<script>
+	function rightAnswer(){
+         $("#feedback").html("<h2 style='color:teal'> Correct! There are five phases in the ADDIE Model.</h2>");
+         $("#addiemodel").show();
+      }
+	
+	function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:maroon'> Yikes. Review the About page. </h2>");
+      $("#addiemodel").hide();
+   }
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:maroon'> Uh-oh. Review the About page. </h2>");
+      $("#addiemodel").hide();
+   }
+	
+	function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:maroon'> I think you need to go back and review. Please refer to the About page. </h2>");
+      $("#addiemodel").hide();
+   }
+   </script>
+
+	
+	<br>
+	Creator: Ferlynn L. Yankiling
+	<br>
+	California State University, Monterey Bay
+	<br>
+	Course: IST541 - Final Project Website
+	<br> Image sources: <b>Freepik.com</b>, <b>biz.libretexts.org</b>
+</body>
+</html>

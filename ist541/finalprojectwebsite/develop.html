@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>develop</title>
+	<link href="css/finalproject.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<h1>Step three: Develop</h1>
+	<br>	
+	
+<p><a href="index.html"> Home </a>
+          <a href="about.html"> About </a>
+          <a href="analyze.html"> Analyze </a>
+          <a href="design.html"> Design </a>
+          <a href="develop.html"> Develop </a>
+          <a href="implement.html"> Implement </a>
+          <a href="evaluate.html"> Evaluate</a></p>
+<br>
+	
+	
+<div id="wrapper">
+		<summary class="stepTitle"><b>Development of Your Project</b></summary>
+	<div class="stepContent">
+
+		<div class="stepDescription">         
+			<p><b>During the development phase, you are building your project. Please consider these few tips:</b></p>
+<ul>
+	<li><p style="text-align: left;">What tools will you be using to create your project? (<i>Adobe Captivate, H5P, Articulate Storyline, etc.)</i></p></li>
+	<li><p style="text-align: left;">When completing the development of your project, there needs to be pilot-testing by your chosen learners.</p></li>
+	<li> <p style="text-align: left;">Who are your user-testers in order to collect data for effectiveness of your project?</p></li>
+	<li> <p style="text-align: left;">Receiving feedback from your user-testers allows you to know what is working effectively and not effectively in your project.</p></li>
+		  </ul>
+			
+  </div>
+		
+	</div><!--stepContent-->
+		
+		</div><!--wrapper-->
+	
+	
+<br>
+<div id="wrapper">
+		<summary class="stepTitle"><b>What Comes Before the Development Phase? (Hover the Image Below)</b></summary>
+	<div class="stepContent">
+ 
+<img onmouseenter="showAnswer()" id="development"  src="img/development.png"   />
+ 
+<img onmouseleave="hideAnswer()" id="design1" src="img/design1.png" />
+ 
+           <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+
+	
+	<script>
+ function showAnswer() {
+	   $("#development").hide();
+	   $("#design1").show();
+	   $("#answer").html("<h2>Correct! Design comes prior to the development phase.</h2>");
+	}
+
+function hideAnswer() {
+	   $("#development").show();
+	   $("#design1").hide();
+	   $("#answer").html("");  
+	}
+</script>
+	</div>
+	
+	<br>
+	Creator: Ferlynn L. Yankiling
+	<br>
+	California State University, Monterey Bay
+	<br>
+	Course: IST541 - Final Project Website
+	<br> Image sources: <b>Freepik.com</b>, <b>biz.libretexts.org</b>
+	
+</body>
+</html>
