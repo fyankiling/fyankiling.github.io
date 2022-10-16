@@ -97,6 +97,8 @@ img {
 
 #addie_model {
 	display: none; /* hides content */
+	border: black 5px solid;
+
 }
 	
 .choices {
