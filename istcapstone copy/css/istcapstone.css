@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    text-align: center;
+    background-color: #91B5E9;
+}
+a {
+    padding: 15px;
+    margin: 3px;
+    font-size: 100%;
+    background-color: #91B5E9;
+    color: #2E2E2E;
+}
+a:hover {
+    font-size: 190%;
+    background-color: #91B5E9;
+    color: #2E2E2E;
+}
+body {
+    background-color: #D0DDF0; /* background color */
+    color: #2E2E2E; /* text color for the page */
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+h1, h2 {
+    text-align: center; /* centers h1 and h2 content */
+    color: #91B5E9; /* exploring new text color */
+}
+#wrapper {
+    width: 1160px;
+    margin: 0 auto; /* centers wrapper */
+}
+.stepTitle {
+    padding: 4px;
+    text-align: left;
+    font-size: 20px;
+    background-color: #91B5E9;
+}
+.stepContent {
+    background-color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+.stepDescription {
+    width: 55%;
+    padding: 5px;
+}
+img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+img.resize {
+    width: 1160px; /* you can use % */
+    height: auto;
+}
+#wrapper {
+    width: 1160px;
+    margin: 0 auto; /* centers wrapper */
+    background: white; /* background color */
+    text-align: center; /* centers wrapper content */
+}
+#wrapper {
+    width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#about {
+	border: black 5px solid;
+}
+
+	
+.choices {
+    cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 15px;
+}
+
+a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.previous {
+  background-color: #91B5E9;
+  color: black;
+}
+
+.next {
+  background-color: #91B5E9;
+  color: black;
+}
+
+.round {
+  border-radius: 50%;
+}
